@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:fillViewport="true"
+	android:keepScreenOn="true"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:padding="20dip"
+		android:scrollbars="vertical" >
+
+		<ImageView
+			android:layout_width="150dip"
+			android:layout_height="150dip"
+			android:contentDescription="Logo"
+			android:src="@drawable/logo" />
+
+		<TextView
+			android:id="@+id/aboutus_descrp_label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dip"
+			android:text="@string/about_us_description" >
+		</TextView>
+
+		<TextView
+			android:id="@+id/aboutus_label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dip"
+			android:text="Developers: Fahad Zafar and Han Dong" />
+
+		<TextView
+			android:id="@+id/about_us_learn_more"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:clickable="true"
+			android:text="Learn More"
+			android:textColor="@drawable/text_color" />
+	</LinearLayout>
+
+</ScrollView>

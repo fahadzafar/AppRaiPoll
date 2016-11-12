@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:scrollbars="vertical" >
+
+	<ScrollView
+		android:id="@+id/view_question_layout_top"
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_weight="0.5" >
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:scrollbars="vertical" >
+
+			<TextView
+				android:id="@+id/view_question_statement"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="10dip"
+				android:paddingTop="10dip"
+				android:text="Question text."
+				android:textColor="#000055"
+				android:textSize="18sp"
+				android:textStyle="bold" />
+			<!-- Empty space -->
+
+			<RadioGroup
+				android:id="@+id/view_question_radiogrp_answers"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" >
+			</RadioGroup>
+
+			<TextView
+				android:id="@+id/view_question_category"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="10dip"
+				android:paddingTop="10dip"
+				android:text="category"
+				android:textColor="#aaaaaa"
+				android:textSize="15sp" />
+
+			<TextView
+				android:id="@+id/view_question_postDate"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="10dip"
+				android:paddingTop="10dip"
+				android:text="postdate"
+				android:textColor="#aaaaaa"
+				android:textSize="15sp" />
+
+			<ImageView
+				android:id="@+id/view_question_question_image"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true"
+				android:layout_marginBottom="7dip"
+				android:layout_marginTop="3dip"
+				android:clickable="true" >
+			</ImageView>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="4"
+				android:orientation="horizontal" >
+
+				<Button
+					android:id="@+id/view_question_btnVote"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal"
+					android:enabled="false"
+					android:gravity="center_horizontal"
+					android:text="Vote"
+					android:textColor="#222222"
+					android:textSize="12sp" />
+
+				<Button
+					android:id="@+id/view_question_btnPin"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal"
+					android:enabled="true"
+					android:gravity="center_horizontal"
+					android:text="Bookmark"
+					android:textColor="#222222"
+					android:textSize="12sp" />
+				
+				  <Button
+          			android:id="@+id/view_question_btnFlag"
+          			android:layout_width="wrap_content"
+          			android:layout_height="wrap_content"
+          			android:layout_gravity="center_horizontal"
+          			android:enabled="true"
+          			android:gravity="center_horizontal"
+          			android:text="Flag"
+          			android:textColor="#222222"
+          			android:textSize="12sp" />
+				  
+			</LinearLayout>
+			<!-- Line after the vote button -->
+
+			<View
+				android:layout_width="fill_parent"
+				android:layout_height="1dp"
+				android:background="@android:color/darker_gray"
+				android:paddingBottom="1dp"
+				android:paddingTop="1dp" />
+		</LinearLayout>
+	</ScrollView>
+
+	<View
+		android:id="@+id/view_question_layout_draggable"
+		android:layout_width="wrap_content"
+		android:layout_height="30dip"
+		android:background="@drawable/drag_bar" />
+
+	<ScrollView
+		android:id="@+id/view_question_layout_bottom"
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_weight="0.5" >
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:scrollbars="vertical" >
+
+			<!-- Results -->
+
+			<include layout="@layout/result_chart_head" />
+
+			<TextView
+				android:id="@+id/view_question_results_hint"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="10dip"
+				android:paddingTop="10dip"
+				android:text="Results available after voting."
+				android:textSize="15sp" />
+
+			<!-- Empty space -->
+
+			<LinearLayout
+				android:id="@+id/view_question_results_panel"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="vertical"
+				android:scrollbars="vertical"
+				android:visibility="gone" >
+
+				<TextView
+					android:id="@+id/view_question_totalVotes"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="10dip"
+					android:paddingTop="10dip"
+					android:text="Total Votes:"
+					android:textSize="15sp" />
+
+				<RelativeLayout
+					android:id="@+id/first_chart"
+					android:layout_gravity="center"
+					android:layout_width="330dip"
+					android:layout_height="270dip"
+					android:layout_margin="20dip"
+					android:background="@drawable/imgborder" />
+				<!-- Share Button -->
+
+
+				<!--
+                      <include
+                    android:id="@+id/view_question_shareFirstChart"
+                    layout="@layout/share_button" />
+				-->
+				<!-- Empty space -->
+
+
+				<!--
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp" >
+                </View>
+				-->
+
+
+				<!-- Demographics based results text -->
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="10dip"
+					android:paddingTop="10dip"
+					android:text="Demographics Based Results"
+					android:textColor="#000000"
+					android:textSize="15dip"
+					android:textStyle="bold" />
+
+				<!-- Empty space -->
+
+
+				<!--
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp" >
+                </View>
+				-->
+
+
+				<!-- Gender based distribution -->
+
+				<LinearLayout
+					android:id="@+id/second_chart"
+					android:layout_gravity="center"
+					android:layout_width="330dip"
+					android:layout_height="270dip"
+					android:layout_margin="20dip"
+					android:background="@drawable/imgborder"
+					android:orientation="horizontal" />
+				<!-- Share Button -->
+
+
+				<!--
+                    <include
+                    android:id="@+id/view_question_shareGenderChart"
+                    layout="@layout/share_button" />
+				-->
+				<!-- Empty space -->
+
+
+				<!--
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp" >
+                </View>
+				-->
+
+
+				<!-- Age based distribution -->
+
+				<LinearLayout
+					android:id="@+id/age_chart"
+					android:layout_gravity="center"
+					android:layout_width="330dip"
+					android:layout_height="270dip"
+					android:layout_margin="20dip"
+					android:background="@drawable/imgborder"
+					android:orientation="horizontal" />
+				<!-- Share Button -->
+
+
+				<!--
+                    <include
+                    android:id="@+id/view_question_shareAgeChart"
+                    layout="@layout/share_button" />
+				-->
+				<!-- Empty space -->
+
+
+				<!--
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp" >
+                </View>
+				-->
+
+
+				<!-- Continent based distribution -->
+
+				<LinearLayout
+					android:id="@+id/continent_chart"
+					android:layout_gravity="center"
+					android:layout_width="330dip"
+					android:layout_height="270dip"
+					android:layout_margin="20dip"
+					android:background="@drawable/imgborder"
+					android:orientation="horizontal" />
+				<!-- Share Button -->
+
+
+				<!--
+                    <include
+                    android:id="@+id/view_question_shareContinentChart"
+                    layout="@layout/share_button" />
+				-->
+				<!-- Empty space -->
+
+
+				<!--
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp" >
+                </View>
+				-->
+
+
+				<!-- Education based distribution -->
+
+				<LinearLayout
+					android:id="@+id/education_chart"
+					android:layout_gravity="center"
+					android:layout_width="330dip"
+					android:layout_height="270dip"
+					android:layout_margin="20dip"
+					android:background="@drawable/imgborder"
+					android:orientation="horizontal" />
+				<!-- Share Button -->
+
+
+				<!--
+                    <include
+                    android:id="@+id/view_question_shareEducationChart"
+                    layout="@layout/share_button" />
+				-->
+				<!-- Empty space -->
+
+
+				<!--
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp" >
+                </View>
+				-->
+
+
+				<!-- Race based distribution -->
+
+				<LinearLayout
+					android:id="@+id/race_chart"
+					android:layout_gravity="center"
+					android:layout_width="330dip"
+					android:layout_height="270dip"
+					android:layout_margin="20dip"
+					android:background="@drawable/imgborder"
+					android:orientation="horizontal" />
+				<!-- Share Button -->
+
+
+				<!--
+                    <include
+                    android:id="@+id/view_question_shareRaceChart"
+                    layout="@layout/share_button" />
+				-->
+				<!-- Empty space -->
+
+
+				<!--
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp" >
+                </View>
+				-->
+
+
+				<!-- Religion based distribution -->
+
+				<LinearLayout
+					android:id="@+id/religion_chart"
+					android:layout_gravity="center"
+					android:layout_width="330dip"
+					android:layout_height="270dip"
+					android:layout_margin="20dip"
+					android:background="@drawable/imgborder"
+					android:orientation="horizontal" />
+				<!-- Share Button -->
+
+
+				<!--
+                    <include
+                    android:id="@+id/view_question_shareReligionChart"
+                    layout="@layout/share_button" />
+				-->
+				<!-- Empty space -->
+
+
+				<!--
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp" >
+                </View>
+				-->
+
+
+				<!-- Multiple Choice Share Button -->
+
+
+				<!--
+                      <Button
+                    android:id="@+id/view_question_shareMultiChoiceChart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    layout="@layout/share_button"
+                    android:text="Share" />
+				-->
+				<!-- Empty space -->
+
+
+				<!-- Advanced analysis -->
+
+
+				<!--
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Advanced Analysis"
+                    android:textColor="#000000"
+                    android:textSize="15dip"
+                    android:textStyle="bold" />
+				-->
+
+
+				<!-- Advanced analysis -->
+
+
+				<!--
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="coming soon ..."
+                    android:textColor="#aaaaaa"
+                    android:textSize="10dip"
+                    android:textStyle="bold" />
+				-->
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+
+	<!-- wow -->
+
+</LinearLayout><!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <ScrollView
+        android:id="@+id/view_question_layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.5" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:scrollbars="vertical" >
+
+            <TextView
+                android:id="@+id/view_question_statement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:text="Question text."
+                android:textColor="#000055"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/view_question_radiogrp_answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/view_question_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:text="category"
+                android:textColor="#aaaaaa"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/view_question_postDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:text="postdate"
+                android:textColor="#aaaaaa"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/view_question_question_image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="7dip"
+                android:layout_marginTop="3dip"
+                android:clickable="true" >
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/view_question_btnVote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:height="15sp"
+                    android:text="Vote"
+                    android:textColor="#222222"
+                    android:textSize="12sp"
+                    android:width="50sp" >
+                </Button>
+
+                <Button
+                    android:id="@+id/view_question_btnPin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:enabled="true"
+                    android:gravity="center_horizontal"
+                    android:height="15sp"
+                    android:text="Pin"
+                    android:textColor="#222222"
+                    android:textSize="12sp"
+                    android:width="50sp" >
+                </Button>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:paddingBottom="1dp"
+                android:paddingTop="1dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/view_question_layout_draggable"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:background="@drawable/drag_bar" />
+
+    <ScrollView
+        android:id="@+id/view_question_layout_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.5" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:scrollbars="vertical" >
+
+
+            <include layout="@layout/result_chart_head" />
+
+            <TextView
+                android:id="@+id/view_question_results_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="10dip"
+                android:text="Results available after voting."
+                android:textSize="15sp" />
+
+
+            <LinearLayout
+                android:id="@+id/view_question_results_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:scrollbars="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/view_question_totalVotes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dip"
+                    android:paddingTop="10dip"
+                    android:text="Total Votes:"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:id="@+id/first_chart"
+                    android:layout_width="fill_parent"
+                    android:layout_height="300dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/imgborder"
+                    android:orientation="horizontal" />
+
+                <include
+                    android:id="@+id/view_question_shareFirstChart"
+                    layout="@layout/share_button" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp" >
+                </View>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Demographics Based Results"
+                    android:textColor="#000000"
+                    android:textSize="15dip"
+                    android:textStyle="bold" />
+
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp" >
+                </View>
+
+
+                <LinearLayout
+                    android:id="@+id/second_chart"
+                    android:layout_width="fill_parent"
+                    android:layout_height="300dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/imgborder"
+                    android:orientation="horizontal" />
+
+                <include
+                    android:id="@+id/view_question_shareGenderChart"
+                    layout="@layout/share_button" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp" >
+                </View>
+
+
+                <LinearLayout
+                    android:id="@+id/age_chart"
+                    android:layout_width="fill_parent"
+                    android:layout_height="300dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/imgborder"
+                    android:orientation="horizontal" />
+
+                <include
+                    android:id="@+id/view_question_shareAgeChart"
+                    layout="@layout/share_button" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp" >
+                </View>
+
+
+                <LinearLayout
+                    android:id="@+id/continent_chart"
+                    android:layout_width="fill_parent"
+                    android:layout_height="300dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/imgborder"
+                    android:orientation="horizontal" />
+
+                <include
+                    android:id="@+id/view_question_shareContinentChart"
+                    layout="@layout/share_button" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp" >
+                </View>
+
+
+                <LinearLayout
+                    android:id="@+id/education_chart"
+                    android:layout_width="fill_parent"
+                    android:layout_height="300dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/imgborder"
+                    android:orientation="horizontal" />
+
+                <include
+                    android:id="@+id/view_question_shareEducationChart"
+                    layout="@layout/share_button" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp" >
+                </View>
+
+
+                <LinearLayout
+                    android:id="@+id/race_chart"
+                    android:layout_width="fill_parent"
+                    android:layout_height="300dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/imgborder"
+                    android:orientation="horizontal" />
+
+                <include
+                    android:id="@+id/view_question_shareRaceChart"
+                    layout="@layout/share_button" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp" >
+                </View>
+
+
+                <LinearLayout
+                    android:id="@+id/religion_chart"
+                    android:layout_width="fill_parent"
+                    android:layout_height="300dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/imgborder"
+                    android:orientation="horizontal" />
+
+                <include
+                    android:id="@+id/view_question_shareReligionChart"
+                    layout="@layout/share_button" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp" >
+                </View>
+
+
+                <include
+                    android:id="@+id/view_question_shareMultiChoiceChart"
+                    android:layout_gravity="left"
+                    layout="@layout/share_button"
+                    android:text="Multi-select Share" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Advanced Analysis"
+                    android:textColor="#000000"
+                    android:textSize="15dip"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="coming soon ..."
+                    android:textColor="#aaaaaa"
+                    android:textSize="10dip"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+-->
+<!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/layout/view_question.xml -->

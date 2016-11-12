@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="right"
+	android:layout_marginTop="10dip"
+	android:paddingBottom="5dip"
+	android:paddingLeft="10dip"
+	android:paddingRight="10dip"
+	android:paddingTop="5dip"
+	android:textSize="25sp"
+	android:background="#cccccc"
+	android:text="Share"
+	android:enabled="false"/>

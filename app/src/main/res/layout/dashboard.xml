@@ -1,0 +1,70 @@
+<android.support.v4.widget.DrawerLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:keepScreenOn="true"
+    android:minHeight="450dip"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/dashboard_testn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="vertical" >
+	</RelativeLayout>
+	
+<!--     <LinearLayout
+        android:id="@+id/dashboard_testn"
+        android:layout_width="fill_parent"
+        android:layout_height="528dp"
+        android:orientation="vertical"
+        android:scrollbars="vertical" >
+
+        -
+        <Button
+	        android:id="@+id/dashboard_btn_ask_question"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Ask question" />
+
+	    <Button
+	        android:id="@+id/dashboard_btn_list_questions"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="List Questions" />
+       
+
+        
+    </LinearLayout>
+     android:divider="@android:color/transparent"
+ -->
+
+	 <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:dividerHeight="1dp"
+        android:background="#fff"/>
+	 
+    <!--  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/dashboard_btn_ask_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@layout/round_button"
+            android:text="+"
+            android:textSize="30sp" />
+    </RelativeLayout>-->
+
+</android.support.v4.widget.DrawerLayout>

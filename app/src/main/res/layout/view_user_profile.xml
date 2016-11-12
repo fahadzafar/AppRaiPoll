@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:fillViewport="true"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="20dip" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="50dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="Username:" >
+			</TextView>
+
+			<TextView
+				android:id="@+id/view_user_profile_lgUsername"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="50dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="Old Password:" >
+			</TextView>
+
+			<EditText
+				android:id="@+id/view_user_profile_lgPasswordold"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:inputType="textPassword"
+				android:lines="1"
+				android:maxLength="30" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="50dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="New Password:" >
+			</TextView>
+
+			<EditText
+				android:id="@+id/view_user_profile_lgPasswordnew"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:inputType="textPassword"
+				android:lines="1"
+				android:maxLength="30" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="50dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="Re-enter:" >
+			</TextView>
+
+			<EditText
+				android:id="@+id/view_user_profile_lgPasswordRetype"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:inputType="textPassword"
+				android:lines="1"
+				android:maxLength="30" />
+		</LinearLayout>
+
+		<View
+			android:layout_width="fill_parent"
+			android:layout_height="15dp" />
+
+		<Button
+			android:id="@+id/view_user_profile_btn_lgChangePassword"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="10dip"
+			android:text="Change Password" />
+
+		<View
+			android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:layout_marginTop="10dip"
+			android:background="#000000" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:text="Voter Profile"
+			android:textSize="22sp" >
+		</TextView>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="50dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="Gender:" >
+			</TextView>
+
+			<Spinner
+				android:id="@+id/view_user_profile_spinnerGender"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:visibility="gone" >
+			</Spinner>
+
+			<TextView
+				android:id="@+id/view_user_profile_valGender"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:visibility="gone" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="50dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="Date of birth" >
+			</TextView>
+
+			<Button
+				android:id="@+id/view_user_profile_btnDOB"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:onClick="showDatePickerDialog"
+				android:text="Select date"
+				android:visibility="gone" />
+
+			<TextView
+				android:id="@+id/view_user_profile_valAge"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:visibility="gone" >
+			</TextView>
+
+			<Spinner
+				android:id="@+id/view_user_profile_spinnerAge"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:visibility="gone" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="50dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="Race:" >
+			</TextView>
+
+			<Spinner
+				android:id="@+id/view_user_profile_spinnerRace"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:visibility="gone" >
+			</Spinner>
+
+			<TextView
+				android:id="@+id/view_user_profile_valRace"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:visibility="gone" >
+			</TextView>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="50dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="Completed education:" >
+			</TextView>
+
+			<Spinner
+				android:id="@+id/view_user_profile_spinnerEducation"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:visibility="gone" >
+			</Spinner>
+
+			<TextView
+				android:id="@+id/view_user_profile_valEducation"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:visibility="gone" >
+			</TextView>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="50dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="Birth continent:" >
+			</TextView>
+
+			<Spinner
+				android:id="@+id/view_user_profile_spinnerContinent"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:visibility="gone" >
+			</Spinner>
+
+			<TextView
+				android:id="@+id/view_user_profile_valContinent"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:visibility="gone" >
+			</TextView>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="50dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="Religious views:" >
+			</TextView>
+
+			<Spinner
+				android:id="@+id/view_user_profile_spinnerReligion"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:visibility="gone" >
+			</Spinner>
+
+			<TextView
+				android:id="@+id/view_user_profile_valReligion"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:visibility="gone" >
+			</TextView>
+		</LinearLayout>
+
+		<View
+			android:layout_width="fill_parent"
+			android:layout_height="15dp" />
+
+		<Button
+			android:id="@+id/view_user_profile_btn_submitDemographicChanges"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:text="Save Changes" />
+	</LinearLayout>
+
+</ScrollView>

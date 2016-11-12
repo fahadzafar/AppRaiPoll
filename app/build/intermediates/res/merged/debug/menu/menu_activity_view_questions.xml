@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+	<item
+		android:id="@+id/view_questions_share"
+		android:showAsAction="always|withText"
+		android:title="@string/view_question_share"/>
+	
+</menu>
+<!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/menu/menu_activity_view_questions.xml -->

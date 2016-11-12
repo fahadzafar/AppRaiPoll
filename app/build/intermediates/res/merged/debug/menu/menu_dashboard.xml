@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/dashboard_addpoll"
+        android:showAsAction="always|withText"
+        android:title="New Poll"/>
+</menu>
+<!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/menu/menu_dashboard.xml -->

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/spinners.xml -->
+    <eat-comment/>
+    <string-array name="action_list">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+    </string-array>
+    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/string.xml -->
+    <eat-comment/>
+    <string-array name="dashboard_spinner_friend_items">
+        <item>Friend Posts </item>
+        <item>Friend Voted</item>
+    </string-array>
+    <string-array name="dashboard_spinner_home_items">
+        <item>Most Recent</item>
+        <item>Most Voted</item>
+    </string-array>
+    <string-array name="dashboard_spinner_personal_items">
+        <item>My Bookmarked</item>
+        <item>My Voted</item>
+        <item>My Posted</item>
+    </string-array>
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_action_new</item>
+        <item>@drawable/ic_action_search</item>
+        <item>@drawable/ic_action_collection</item>
+        <item>@drawable/ic_action_add_group</item>
+        <item>@drawable/ic_action_person</item>
+        <item>@drawable/ic_action_new_label</item>
+        <item>@drawable/ic_action_about</item>
+        <item>@drawable/ic_action_bad</item>
+    </array>
+    <string-array name="navigation_options">
+        <item>New Poll</item>
+        <item>Search</item>
+        <item>Subscriptions</item>
+        <item>Community</item>
+        <item>Profile</item>
+        <item>Feedback</item>
+        <item>About Us</item>
+        <item>Log Out</item>
+        <item>Fake Data</item>
+    </string-array>
+    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="domain_label_font_size">13dp</dimen>
+    <dimen name="domain_tick_label_font_size">15dp</dimen>
+    <dimen name="legend_text_font_size">20dp</dimen>
+    <dimen name="pie_segment_label_font_size">10dp</dimen>
+    <dimen name="range_label_font_size">13dp</dimen>
+    <dimen name="range_tick_label_font_size">15dp</dimen>
+    <dimen name="title_font_size">20dp</dimen>
+    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/string.xml -->
+    <eat-comment/>
+    <string name="about_us_description">This vision of our team is to allow everyone to seek opinions from all over the world and analyze the results based on important data points. An unbiased and unfiltered look at the opinions of the everybody on any issue can be truly eye opening.</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/string.xml -->
+    <eat-comment/>
+    <string name="action_sign_in_register"><b>Sign in</b> or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="app_name">RaiPoll</string>
+    <string name="app_name2">World opinion, quantified !</string>
+    <string name="categoryspinner">Categories</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/string.xml -->
+    <eat-comment/>
+    <string name="learn_more_description2">- RaiPoll aims to represent the opinions of people in a wide range of issues from entertainment politics, sports to simple things in life.</string>
+    <string name="learn_more_description3">- Our goal is to inform the public about attitudes and trends shaping the world. You can think of RaiPoll as combining the simplicity of a survey with focused and clear result representation for everone.</string>
+    <string name="learn_more_description4">- Join us in building this unique community and get started asking and voting about anything that interests you. All voting is kept anonymous while aggregate information is accessible to all members of the community.</string>
+    <string name="learn_more_descripton">- Every person in this world is unique, their perspectives can be shaped by the environment, their family, culture, religion and many other factors.</string>
+    <string name="login_progress_signing_in">Signing in…</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_username">Username</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh...</string>
+    <string name="pull_to_refresh_refreshing_label">Loading...</string>
+    <string name="pull_to_refresh_release_label">Release to refresh...</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh...</string>
+    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_learn_more">Learn more about RaiPoll</string>
+    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/string.xml -->
+    <eat-comment/>
+    <string name="title_activity_login_activity2">Sign in</string>
+    <string name="view_question_share">Share</string>
+    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">400dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">16dp</item>
+    </style>
+</resources>

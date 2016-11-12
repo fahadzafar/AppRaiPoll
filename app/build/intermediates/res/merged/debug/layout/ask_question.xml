@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" >
+
+		<EditText
+			android:id="@+id/ask_question_editpoll"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dip"
+			android:gravity="top|left"
+			android:hint="Enter your poll question here (200 characters)."
+			android:inputType="textMultiLine|textCapSentences"
+			android:lines="5"
+			android:maxLines="5"
+			android:minLines="3"
+			android:scrollHorizontally="false"
+			android:scrollbars="vertical" />
+
+		<LinearLayout
+			android:id="@+id/ask_question_linearlayout"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_margin="10dp"
+			android:layout_weight="1"
+			android:orientation="vertical"
+			android:scrollbars="vertical" >
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:minHeight="30dp"
+			android:orientation="horizontal" >
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dip"
+			android:layout_weight="0"
+			android:gravity="bottom"
+			android:minHeight="30dp"
+			android:orientation="horizontal" >
+
+			
+      <Button
+        android:id="@+id/ask_question_btn_AddOption"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/plus_button" />
+
+ 
+
+      <Button
+        android:id="@+id/ask_question_btn_removeOption"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/minus_icon" />
+      
+			<Spinner
+				android:id="@+id/ask_question_spnr_ans_templates"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+
+		<include layout="@layout/space_line_space" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dip"
+			android:layout_weight="0"
+			android:gravity="bottom"
+			android:minHeight="30dp"
+			android:orientation="vertical" >
+
+			<Spinner
+				android:id="@+id/ask_question_spnr_categories"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
+
+			<View
+				android:layout_width="fill_parent"
+				android:layout_height="25dp" />
+
+			<ImageView
+				android:id="@+id/ask_question_image"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:clickable="true"
+				android:scaleType="centerCrop"
+				android:src="@drawable/select_image" />
+			<!-- android:background="@drawable/imgborder" -->
+
+		</LinearLayout>
+	</LinearLayout>
+
+</ScrollView><!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/layout/ask_question.xml -->

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:paddingLeft="5dip" >
+
+		<ImageView
+			android:layout_width="25dip"
+			android:layout_height="25dip"
+			android:layout_centerHorizontal="true"
+			android:layout_marginBottom="7dip"
+			android:layout_marginTop="3dip"
+			android:background="@drawable/ic_chart_icon"
+			android:scaleType="fitXY" >
+		</ImageView>
+
+		<View
+			android:layout_width="10dp"
+			android:layout_height="25dip" >
+		</View>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Results"
+			android:textColor="#000000"
+			android:textSize="25dip" />
+	</LinearLayout>
+
+	<include
+		layout="@layout/line"
+		android:paddingBottom="0dp" />
+
+</LinearLayout><!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/layout/result_chart_head.xml -->

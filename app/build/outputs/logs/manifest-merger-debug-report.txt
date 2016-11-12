@@ -1,0 +1,205 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:2:1-117:12
+	package
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:13:22-78
+application
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:15:5-115:19
+	android:label
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:19:9-41
+	android:allowBackup
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:17:9-36
+	android:icon
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:18:9-45
+	android:theme
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:20:9-70
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:16:9-61
+activity#com.parse.activities.LoginActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:21:9-32:20
+	android:screenOrientation
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:24:13-49
+	android:label
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:23:13-45
+	android:windowSoftInputMode
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:26:13-54
+	android:theme
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:25:13-83
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:22:13-62
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:30:27-74
+activity#com.parse.activities.RegisterActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:33:9-38:20
+	android:label
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:35:13-49
+	android:parentActivityName
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:36:13-76
+	android:windowSoftInputMode
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:37:13-54
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:34:13-65
+activity#com.parse.activities.DashboardActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:39:9-43:20
+	android:label
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:42:13-43
+	android:icon
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:40:13-66
+activity#com.parse.activities.AskQuestionActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:44:9-49:20
+	android:label
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:46:13-43
+	android:parentActivityName
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:47:13-80
+	android:windowSoftInputMode
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:48:13-54
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:45:13-68
+activity#com.parse.activities.ViewQuestionActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:50:9-53:20
+	android:parentActivityName
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:52:13-80
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:51:13-69
+activity#com.parse.activities.SuggestionActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:54:9-58:20
+	android:label
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:56:13-37
+	android:parentActivityName
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:57:13-80
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:55:13-67
+activity#com.parse.activities.AboutUsActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:59:9-63:20
+	android:label
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:61:13-37
+	android:parentActivityName
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:62:13-80
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:60:13-64
+activity#com.parse.activities.ViewUserProfileActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:64:9-68:20
+	android:label
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:66:13-41
+	android:parentActivityName
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:67:13-80
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:65:13-72
+activity#com.parse.test.FakeDataActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:69:9-73:20
+	android:label
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:71:13-44
+	android:parentActivityName
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:72:13-80
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:70:13-59
+activity#com.parse.activities.ChartActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:74:9-77:20
+	android:label
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:76:13-40
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:75:13-62
+activity#com.parse.activities.CommunityActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:78:9-82:20
+	android:label
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:80:13-50
+	android:parentActivityName
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:81:13-80
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:79:13-66
+activity#com.parse.activities.SearchActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:83:9-87:20
+	android:label
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:85:13-46
+	android:parentActivityName
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:86:13-80
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:84:13-63
+activity#com.parse.activities.SearchCategoryActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:88:9-92:20
+	android:label
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:90:13-47
+	android:parentActivityName
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:91:13-80
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:89:13-71
+activity#com.parse.activities.FriendManagerActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:93:9-97:20
+	android:label
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:95:13-44
+	android:parentActivityName
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:96:13-80
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:94:13-70
+activity#com.parse.activities.FullImageActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:98:9-99:20
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:98:19-72
+activity#com.parse.activities.SubscriptionActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:100:9-104:20
+	android:label
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:102:13-42
+	android:parentActivityName
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:103:13-80
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:101:13-69
+activity#com.parse.activities.MovableActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:105:9-106:20
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:105:19-70
+activity#com.parse.activities.LearnMoreActivity
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:107:9-114:20
+	android:label
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:109:13-62
+	android:parentActivityName
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:110:13-76
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:108:13-66
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:111:13-113:70
+	android:value
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:113:17-67
+	android:name
+		ADDED from C:\Users\Fahad\Desktop\RaiPoll\app\src\main\AndroidManifest.xml:112:17-63
