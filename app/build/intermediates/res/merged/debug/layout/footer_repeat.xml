@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
     android:src="@drawable/repeat_bg"
-    android:tileMode="repeat" /><!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/layout/footer_repeat.xml -->
+    android:tileMode="repeat" /><!-- From: file:/C:/Users/Fahad/Dropbox/Sources/1_AndroidApps_Published/RaiPoll/app/src/main/res/layout/footer_repeat.xml -->

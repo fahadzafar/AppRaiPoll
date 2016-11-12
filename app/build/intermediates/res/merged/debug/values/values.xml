@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/spinners.xml -->
+    <!-- From: file:/C:/Users/Fahad/Dropbox/Sources/1_AndroidApps_Published/RaiPoll/app/src/main/res/values/spinners.xml -->
     <eat-comment/>
     <string-array name="action_list">
         <item>Mercury</item>
         <item>Venus</item>
         <item>Earth</item>
     </string-array>
-    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/string.xml -->
+    <!-- From: file:/C:/Users/Fahad/Dropbox/Sources/1_AndroidApps_Published/RaiPoll/app/src/main/res/values/string.xml -->
     <eat-comment/>
     <string-array name="dashboard_spinner_friend_items">
         <item>Friend Posts </item>
@@ -43,7 +43,7 @@
         <item>Log Out</item>
         <item>Fake Data</item>
     </string-array>
-    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Fahad/Dropbox/Sources/1_AndroidApps_Published/RaiPoll/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
@@ -54,14 +54,14 @@
     <dimen name="range_label_font_size">13dp</dimen>
     <dimen name="range_tick_label_font_size">15dp</dimen>
     <dimen name="title_font_size">20dp</dimen>
-    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/string.xml -->
+    <!-- From: file:/C:/Users/Fahad/Dropbox/Sources/1_AndroidApps_Published/RaiPoll/app/src/main/res/values/string.xml -->
     <eat-comment/>
     <string name="about_us_description">This vision of our team is to allow everyone to seek opinions from all over the world and analyze the results based on important data points. An unbiased and unfiltered look at the opinions of the everybody on any issue can be truly eye opening.</string>
     <string name="action_forgot_password">Recover lost password</string>
-    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Fahad/Dropbox/Sources/1_AndroidApps_Published/RaiPoll/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
-    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/string.xml -->
+    <!-- From: file:/C:/Users/Fahad/Dropbox/Sources/1_AndroidApps_Published/RaiPoll/app/src/main/res/values/string.xml -->
     <eat-comment/>
     <string name="action_sign_in_register"><b>Sign in</b> or register</string>
     <string name="action_sign_in_short">Sign in</string>
@@ -75,10 +75,10 @@
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
-    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Fahad/Dropbox/Sources/1_AndroidApps_Published/RaiPoll/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="hello_world">Hello world!</string>
-    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/string.xml -->
+    <!-- From: file:/C:/Users/Fahad/Dropbox/Sources/1_AndroidApps_Published/RaiPoll/app/src/main/res/values/string.xml -->
     <eat-comment/>
     <string name="learn_more_description2">- RaiPoll aims to represent the opinions of people in a wide range of issues from entertainment politics, sports to simple things in life.</string>
     <string name="learn_more_description3">- Our goal is to inform the public about attitudes and trends shaping the world. You can think of RaiPoll as combining the simplicity of a survey with focused and clear result representation for everone.</string>
@@ -91,14 +91,14 @@
     <string name="pull_to_refresh_refreshing_label">Loading...</string>
     <string name="pull_to_refresh_release_label">Release to refresh...</string>
     <string name="pull_to_refresh_tap_label">Tap to refresh...</string>
-    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Fahad/Dropbox/Sources/1_AndroidApps_Published/RaiPoll/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_activity_learn_more">Learn more about RaiPoll</string>
-    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/string.xml -->
+    <!-- From: file:/C:/Users/Fahad/Dropbox/Sources/1_AndroidApps_Published/RaiPoll/app/src/main/res/values/string.xml -->
     <eat-comment/>
     <string name="title_activity_login_activity2">Sign in</string>
     <string name="view_question_share">Share</string>
-    <!-- From: file:/C:/Users/Fahad/Desktop/RaiPoll/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Fahad/Dropbox/Sources/1_AndroidApps_Published/RaiPoll/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="LoginFormContainer">
         <item name="android:layout_width">400dp</item>

@@ -2,25 +2,25 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Fahad\Desktop\RaiPoll\libs\achartengine-1.1.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
-        <dex dex="C:\Users\Fahad\Desktop\RaiPoll\app\build\intermediates\pre-dexed\debug\achartengine-1.1.0-c921ceaefc97946c35267ae13effc83553280cbb.jar" />
-    </item>
-    <item
-        jar="C:\Users\Fahad\Desktop\RaiPoll\libs\android-support-v4.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
-        <dex dex="C:\Users\Fahad\Desktop\RaiPoll\app\build\intermediates\pre-dexed\debug\android-support-v4-473900554154bc96c506cd6f38ab3b26075fdcc1.jar" />
-    </item>
-    <item
-        jar="C:\Users\Fahad\Desktop\RaiPoll\libs\Parse-1.3.5.jar"
+        jar="C:\Users\Fahad\Dropbox\Sources\1_AndroidApps_Published\RaiPoll\libs\Parse-1.3.5.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="b77712127b728297e9858005b6da5ba4099a1285">
-        <dex dex="C:\Users\Fahad\Desktop\RaiPoll\app\build\intermediates\pre-dexed\debug\Parse-1.3.5-ed5f9327cd6b5e550f970c4b9843a9e25820d1d9.jar" />
+        <dex dex="C:\Users\Fahad\Dropbox\Sources\1_AndroidApps_Published\RaiPoll\app\build\intermediates\pre-dexed\debug\Parse-1.3.5-c6f268695081898ccf5c5027995d0e2d7a9b3868.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fahad\Dropbox\Sources\1_AndroidApps_Published\RaiPoll\libs\achartengine-1.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="C:\Users\Fahad\Dropbox\Sources\1_AndroidApps_Published\RaiPoll\app\build\intermediates\pre-dexed\debug\achartengine-1.1.0-b5d9242cc94faebee6565b45c1325506183137e0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fahad\Dropbox\Sources\1_AndroidApps_Published\RaiPoll\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
+        <dex dex="C:\Users\Fahad\Dropbox\Sources\1_AndroidApps_Published\RaiPoll\app\build\intermediates\pre-dexed\debug\android-support-v4-27f578e920787dc08b7de81e8a57d50febf1d96d.jar" />
     </item>
 
 </items>
