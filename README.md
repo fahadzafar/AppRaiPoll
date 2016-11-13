@@ -3,8 +3,7 @@
 
 #Goal of the App:
 
-This app strips the MP3 audio off any YouTube video selected through an android app. The YouTube videos are displayed in a visual list with image + title, and can be played from within the app. Once the request for mp3 extraction is submitted, the app will also download the resulting mp3 file to the phone.
-
+This app allowsd users to post questions and multiple options, and all viewers to vote on therm. The voting is displayed using demographics, gender, age, education, location etc, which are voluntarily shared by each voter. Every voter must have at least 1 of those demogrphics declared. The results are displayed based on charts using AChart library. These charts can be shared throguh the app.
 
 
 #Description:
