@@ -20,5 +20,5 @@ Fore more images about the ap go [here](https://drive.google.com/open?id=0BzkvMW
 
 
 
-Note: Parse will be discontinued after January 2017, this app+server will not be migrated.
+Note: Parse will be discontinued after January 2017, this app will not be migrated.
 
