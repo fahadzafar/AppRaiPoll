@@ -3,7 +3,7 @@
 
 #Goal of the App:
 
-This app allowsd users to post questions and multiple options, and all viewers to vote on therm. The voting is displayed using demographics, gender, age, education, location etc, which are voluntarily shared by each voter. Every voter must have at least 1 of those demogrphics declared. The results are displayed based on charts using AChart library. These charts can be shared throguh the app.
+This app allows users to post questions and multiple options, and all viewers to vote on therm. The voting is displayed using demographics, gender, age, education, location etc, which are voluntarily shared by each voter. Every voter must have at least 1 of those demographics declared. The results are displayed based on charts using AChart library. These charts can be shared through the app.
 
 
 #Description:
